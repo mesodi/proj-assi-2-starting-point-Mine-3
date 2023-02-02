@@ -13,7 +13,7 @@ pipeline {
                     sh 'mvn clean'
                 }
                 echo 'downloading github project...'
-                git branch: 'master', credentialsId: 'secondassignment', url: 'https://github.com/mesodi/proj-assi-2-starting-point-Mine-2023-.git'
+                git branch: 'master', credentialsId: 'assignment2', url: 'https://github.com/mesodi/proj-assi-2-starting-point-Mine-2023-.git'
                 sh 'pwd'
                 sh 'ls'
                 sh 'ls backend'
