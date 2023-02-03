@@ -4,5 +4,3 @@ spring:
     username: jensenyh
     password: password
 
-server:
-  port: 8099
